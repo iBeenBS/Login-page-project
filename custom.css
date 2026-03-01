@@ -1,0 +1,121 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+    to bottom left,
+    #ffd6e8,
+    #d6e4ff,
+    #d6ffe8,
+    #e6d6ff,
+    #ffdede
+  );
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+.main-container {
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  height: 900px;
+  width: 700px;
+}
+.icon {
+  width: 150px;
+  margin-bottom: -10px;
+}
+h1 {
+  color: black;
+  font-size: 50px;
+  font-family: 'Inter', sans-serif;
+}
+.sub {
+  margin-top: 6px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6); 
+  text-align: center;
+}
+input {
+  width: 80%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.6);
+  outline: none;
+  font-size: 16px;
+}
+input:focus {
+  box-shadow: 0 0 10px rgba(150, 150, 255, 0.4);
+}
+.btn-registrar {
+  width: 80%;
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to right, #6a8cff, #5a7dff);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-registrar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(90, 125, 255, 0.4);
+}
+.btn-registrar:active {
+  transform: scale(0.97);
+}
+.linha {
+  width: 100px;
+  height: 3px;
+  background: #6a8cff;
+  border-radius: 10px;
+  margin: 10px auto 20px auto;
+}
+.linha2 {
+  width: 100px;
+  height: 3px;
+  background: gray;
+  border-radius: 10px;
+  margin: 10px auto 20px auto;
+}
+.logar {
+  display: block;
+  width: 80%;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+}
+.login {
+  display: block;
+  width: 80%;
+  margin-top: 12px;
+  text-align: left;
+  font-size: 14px;
+  color: #5a7dff;
+  display: inline;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.login:hover {
+  color: #2f54ff;
+}
