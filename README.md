@@ -5,7 +5,9 @@ Em breve irei adicionar atualizações da página para ir aprimorando cada vez m
 
 # 🧠 Aprendizados
 
-▸ Uso da tag <input>;
+▸ Uso da tag input;<br>
+▸ Uso da chave "display" no CSS;<br>
+▸ Controle da tag div.
 
 # 💻 Tecnologias
 
